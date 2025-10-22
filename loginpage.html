@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Faça login em sua conta</h1>
+            <br><hr><br>
+        </div>
+
+        <form class="form-login">
+            <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" name="senha" required>
+            </div>
+
+            <div class="form-group remember">
+                <label class="checkbox-option">
+                    <input type="checkbox">
+                    <span class="checkbox-custom"></span>
+                    Lembrar de mim
+                </label>
+                <a href="#" class="forgot-password">Esqueci minha senha</a>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Entrar</button>
+        </form>
+
+        <div class="footer">
+            <p>Não tem uma conta? <a href="cadastro.html">Cadastre-se</a></p>
+            <a href="index.html" class="back-link">← Voltar para página inicial</a>
+        </div>
+    </div>
+
+    <script src="css/loginscript.js"></script>
+</body>
+</html>

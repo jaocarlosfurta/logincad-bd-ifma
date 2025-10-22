@@ -128,6 +128,8 @@ body {
     cursor: pointer;
     font-weight: normal;
     font-size: 1rem;
+    gap: 12px;
+    padding: 8px 0;
 }
 
 .checkbox-option input[type="checkbox"] {
@@ -139,9 +141,9 @@ body {
     height: 18px;
     border: 2px solid #ccc;
     border-radius: 4px;
-    margin-right: 10px;
     position: relative;
     transition: all 0.3s ease;
+    flex-shrink: 0;
 }
 
 .checkbox-option input[type="checkbox"]:checked + .checkbox-custom {
